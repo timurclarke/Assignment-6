@@ -23,13 +23,13 @@ Point::Point(double xIn, double yIn)
 void Point::setXCoord(double xIn)
 {
 	XCoord = xIn;
-	cout << "x: " << XCoord << endl; //remove
+	//cout << "x: " << XCoord << endl; //remove
 }
 
 void Point::setYCoord(double yIn)
 {
 	YCoord = yIn;
-	cout << "y: " << YCoord << endl; //remove
+	//cout << "y: " << YCoord << endl; //remove
 }
 
 double Point::getXCoord() //const
@@ -59,8 +59,8 @@ double Point::distanceTo(const Point &toPoint)
 	double yDist = ( Point.YCoord - toPoint.YCoord );
 	*/
 
-	cout << "xDist: " << xDist << endl; //remove
-	cout << "yDist: " << yDist << endl; //remove
+	//cout << "xDist: " << xDist << endl; //remove
+	//cout << "yDist: " << yDist << endl; //remove
 
 	if (xDist < 0)	//converts negative X distance value to absolute value
 		xDist = -xDist;
@@ -68,8 +68,8 @@ double Point::distanceTo(const Point &toPoint)
 	if (yDist < 0)	//converts negative Y distance value to absolute value
 		yDist = -yDist;
 
-	cout << "xDist: " << xDist << endl; //remove
-	cout << "yDist: " << yDist << endl; //remove
+	//cout << "xDist: " << xDist << endl; //remove
+	//cout << "yDist: " << yDist << endl; //remove
 
 	return sqrt( (xDist * xDist) + (yDist * yDist) );
 }

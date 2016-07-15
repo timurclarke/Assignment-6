@@ -13,9 +13,7 @@ LineSegment::LineSegment(Point p1, Point p2)
 {
 	setEnd1(p1);
 	setEnd2(p2);
-	//point1 = p1;
-	//point2 = p2;
-	cout << "p1.getXCoord" << p1.getXCoord() << endl;
+	//cout << "p1.getXCoord" << p1.getXCoord() << endl;
 }
 
 void LineSegment::setEnd1(Point p1)
