@@ -11,7 +11,6 @@ class Point
 private:
 	double XCoord;
 	double YCoord;
-
 public:
 	Point();
 	Point(double xIn, double yIn);

@@ -12,7 +12,6 @@ class LineSegment
 private:
 	Point point1;
 	Point point2;
-	
 public:
 	LineSegment(Point p1, Point p2);
 	void setEnd1(Point inPoint1);

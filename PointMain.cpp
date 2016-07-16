@@ -11,8 +11,8 @@ using namespace std;
 
 int main()
 {
-	Point p1(-17.0, 1.5);
-	Point p2(-17.0, 10);
+	Point p1(5, 5);
+	Point p2(10, 5);
 
 	double dist = p1.distanceTo(p2);
 
