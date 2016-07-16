@@ -5,7 +5,6 @@
  */
 
 #include <iostream>
-#include "Point.hpp"
 #include "LineSegment.hpp"
 using namespace std;
 
